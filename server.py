@@ -24,10 +24,10 @@ def simple_get():
 def json_post():
     json_data = request.get_json()
     text = request.get_data()
-
+    
     print(f"JSON: {json_data}")
     print(f"TEXT: {text}")
-
+    
     return "Json get."
 
 
